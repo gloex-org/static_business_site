@@ -1,0 +1,212 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.top {
+  background-image: url("images/backgroundimg(1).jpg");
+  /* background-attachment: fixed; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: gray;
+  position: relative;
+  font-size: 37px;
+  text-decoration: none;
+}
+.logo_stick {
+  top: 20px;
+  margin-left: 37px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.head {
+  margin-top: -43px;
+  margin-left: 37px;
+}
+a:hover {
+  color: rgb(248, 99, 99);
+}
+h1.title {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 63px;
+  margin: 275px 0px 0px 150px;
+}
+.title {
+  position: relative;
+  animation: Heading;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  /* animation-direction: reverse; */
+}
+@keyframes Heading {
+  0% {
+    color: rgba(0, 0, 0, 0);
+    top: 90px;
+  }
+  50% {
+    color: rgba(0, 0, 0, 0);
+    top: 45px;
+  }
+  /* 75%{color: rgba(0, 0, 0, 0); top:67.5px;} */
+  100% {
+    color: white;
+    top: 0px;
+  }
+}
+.butt_1 {
+  position: relative;
+  animation: Find;
+  animation-duration: 2s;
+  /* animation-delay: 2s; */
+  animation-timing-function: linear;
+}
+.butt_2:hover {
+  animation: ho;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  position: relative;
+}
+/* @keyframes ho{
+  .butt_1{
+    from{bottom: 10px;}
+    to{top: 10px;}
+  }  */
+@keyframes Find {
+  0% {
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    border-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    border-color: white;
+    color: white;
+  }
+}
+.butt_1,
+.butt_2 {
+  font-size: 17px;
+  padding: 10px 35px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-color: white;
+  margin: 35px 0px 0px 150px;
+  position: relative;
+  font-weight: bold;
+}
+.butt_2 {
+  position: relative;
+  margin-left: 1000px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.butt_1:hover,
+.butt_2:hover {
+  background-color: rgb(231, 41, 41);
+  border-color: rgb(231, 41, 41);
+}
+
+/* _____________________________________________________________________________ */
+.content_2 {
+  width: 33%;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 34px 0px 0px 12.5%;
+}
+.content_3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 37%;
+  line-height: 1.6;
+  position: relative;
+  margin: -14% 0px 0px 50%;
+  font-size: 20px;
+}
+/* ---------------------------------------------------------------------------------- */
+.section_3 {
+  background-color: black;
+  padding: 26%;
+  padding-bottom: 74%;
+}
+.content_4 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  margin-top: -19%;
+  margin-left: -12%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+/* ________________________________________________________________________________________- */
+
+.image1,
+.image2,
+.image3,
+.image4 {
+  width: 40%;
+  color: white;
+}
+.link1,
+.link2,
+.link3,
+.link4 {
+  text-decoration: none;
+}
+.line_1,
+.line_2,
+.line_3,
+.line_4 {
+  color: white;
+  font-size: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 60px;
+}
+.high_line1,
+.high_line2,
+.high_line3,
+.high_line4 {
+  line-height: 0px;
+  color: white;
+  font-size: 20px;
+  color: gray;
+  text-decoration: underline;
+}
+.high_line1:hover,
+.high_line2:hover,
+.high_line3:hover,
+.high_line4:hover {
+  color: rgb(245, 41, 41);
+}
+.div_image_1 {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: -13.5%;
+}
+.div_image_2 {
+  position: absolute;
+  width: 88.6%;
+  margin-left: 27.5%;
+  margin-top: -10%;
+}
+.div_image_3 {
+  position: absolute;
+  width: 89.3%;
+  margin-left: -13.4%;
+  margin-top: 35%;
+}
+.div_image_4 {
+  position: absolute;
+  width: 88.4%;
+  margin-left: 27.5%;
+  margin-top: 35%;
+}
+/* ___________________________________________________________________________________ */
