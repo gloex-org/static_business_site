@@ -10,7 +10,7 @@ body {
 }
 
 .top {
-  background-image: url("./images/Tech.JPG");
+  background-image: url("images/Tech.JPG");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,17 +115,41 @@ h1.title {
   animation-timing-function: ease-in-out;
 }
 @keyframes hovertext {
-  0% {bottom: 0px;}
-  10% {bottom: 8px;}
-  20% {bottom: 8px;}
-  30% {color: rgb(231, 41, 41);bottom: 8px;}
-  40% {color: rgb(231, 41, 41);}
-  50% {color: rgb(231, 41, 41);}
-  60% {color: rgb(231, 41, 41);}
-  70% {color: rgb(231, 41, 41);top: 8px;}
-  80% {top: 8px;}
-  90% {top: 8px;}
-  100% {top: 0px;}
+  0% {
+    bottom: 0px;
+  }
+  10% {
+    bottom: 8px;
+  }
+  20% {
+    bottom: 8px;
+  }
+  30% {
+    color: rgb(231, 41, 41);
+    bottom: 8px;
+  }
+  40% {
+    color: rgb(231, 41, 41);
+  }
+  50% {
+    color: rgb(231, 41, 41);
+  }
+  60% {
+    color: rgb(231, 41, 41);
+  }
+  70% {
+    color: rgb(231, 41, 41);
+    top: 8px;
+  }
+  80% {
+    top: 8px;
+  }
+  90% {
+    top: 8px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 /* _____________________________________________________________________________ */
@@ -391,35 +415,43 @@ h1.title {
   left: 27.5%;
   margin-top: 40px;
 }
-.chat{
+.chat {
   position: absolute;
   margin-top: 40px;
   margin-left: 50%;
 }
-.navigate a ,.chat a{
+.navigate a,
+.chat a {
   text-decoration: none;
   font-size: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: white;
 }
-.navigate li, .chat li{
+.navigate li,
+.chat li {
   list-style: none;
 }
-.navigate p, .chat p {
+.navigate p,
+.chat p {
   font-size: 22px;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
 }
-.navigate a:hover, .chat a:hover {
+.navigate a:hover,
+.chat a:hover {
   color: rgb(245, 41, 41);
 }
 /* ------------------------------------------------------------ */
 .end_this a:hover,
 .navigate a:hover,
-.end_logo a:hover, .top_move a:hover, .chat a:hover,.left2:hover,span:hover{
+.end_logo a:hover,
+.top_move a:hover,
+.chat a:hover,
+.left2:hover,
+span:hover {
   animation: last_sec_ani;
   animation-duration: 0.7s;
   animation-play-state: running;
@@ -435,7 +467,10 @@ h1.title {
 }
 .end_this a,
 .navigate a,
-.end_logo a,.top_move a,.left2,span{
+.end_logo a,
+.top_move a,
+.left2,
+span {
   animation: last_sec_ani2;
   animation-duration: 0.7s;
   animation-play-state: running;
@@ -475,57 +510,59 @@ h1.title {
   }
 }
 /* ------------------------------------------------------------------------ */
-.top_move{
+.top_move {
   position: absolute;
   width: 50px;
   margin-left: 1200px;
   font-size: 35px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.top_move a{
+.top_move a {
   color: white;
   text-decoration: none;
 }
-hr{
+hr {
   margin-top: 370px;
 }
-.left1, .left2,.right{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.left1,
+.left2,
+.right {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 17px;
   margin-top: 30px;
   color: gray;
-  Width: 200px;
-  Text-align: left;
-  Float: left;
-   Display: block;
+  width: 200px;
+  text-align: left;
+  float: left;
+  display: block;
 }
-.left1{
+.left1 {
   margin-left: 50px;
 }
-.left2{
-width: 100px;
+.left2 {
+  width: 100px;
   margin-left: -30px;
 }
-.right{
+.right {
   margin-left: 700px;
-Width: 260px;
-Text-align: right;
-Float: left;
-Display: block;
+  width: 260px;
+  text-align: right;
+  float: left;
+  display: block;
 }
-span{
+span {
   font-size: 20px;
   font-weight: bold;
   color: white;
 }
 /* ========================================================================= */
 /* navbar */
-.navbar{
+.navbar {
   padding-left: 20px;
   background-color: black;
   overflow: hidden;
 }
-.navbar a{
+.navbar a {
   border-radius: 10px;
   float: left;
   display: block;
@@ -534,10 +571,9 @@ span{
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.navbar a:hover{
+.navbar a:hover {
   background-color: white;
   color: black;
   animation: navbar;
@@ -546,9 +582,13 @@ span{
   animation-fill-mode: forwards;
   animation-timing-function: linear;
 }
-@keyframes navbar{
-  from{background-color: black;color: white;}
-  to{background-color: rgb(245, 41, 41);color: white;}
+@keyframes navbar {
+  from {
+    background-color: black;
+    color: white;
+  }
+  to {
+    background-color: rgb(245, 41, 41);
+    color: white;
+  }
 }
-
-
