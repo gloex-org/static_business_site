@@ -10,7 +10,7 @@ body {
 }
 
 .top {
-  background-image: url("Tech.JPG");
+  background-image: url("./Tech.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
